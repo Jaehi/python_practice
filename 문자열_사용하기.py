@@ -1,26 +1,74 @@
-jeongjaehuiui-MacBookPro:python_practice jungjaehi$ python3
-Python 3.8.7 (v3.8.7:6503f05dd5, Dec 21 2020, 12:45:15) 
-[Clang 6.0 (clang-600.0.57)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> s = '''python is a programming language that lets you work quickly
-... and
-... integrate systems more effectively'''
->>> print(s)
-python is a programming language that lets you work quickly
-and
-integrate systems more effectively
->>> s
-'python is a programming language that lets you work quickly\nand\nintegrate systems more effectively'
->>> hello = 'hello'
->>> hello
-'hello'
->>> print(hello)
-hello
->>> asdf = """Hi my name is "JaeHi"
-... I'm so 'Happy'"""
->>> asdf
-'Hi my name is "JaeHi"\nI\'m so \'Happy\''
->>> print(asdf)
-Hi my name is "JaeHi"
-I'm so 'Happy'
+>>> #문자열 사용하기 
+>>> hey = "hey"
+>>> hey
+'hey'
+>>> hi = """hi"""
+>>> hi
+'hi'
+>>> a = """qqq
+... www
+... eee
+... rrr"""
+>>> a
+'qqq\nwww\neee\nrrr'
+>>> print(a)
+qqq
+www
+eee
+rrr
+>>> an = "isisisis isn't "
+>>> an
+"isisisis isn't "
+>>> na = 'i can "no"'
+>>> na
+'i can "no"'
+>>> some = """"내"가 
+... 바로
+... '쿠키'
+... 다"""
+>>> some
+'"내"가\n바로\n\'쿠키\'\n다'
+>>> print(some)
+"내"가
+바로
+'쿠키'
+다
 >>> 
+>>> #문자열에 따옴표를 추가하는 다른 방법
+>>> 'i can\'t do this'
+"i can't do this"
+>>> print(real\nreal\nreal)
+  File "<stdin>", line 1
+    print(real\nreal\nreal)
+                          ^
+SyntaxError: unexpected character after line continuation character
+>>> print('real\nreal\nreal\n)
+  File "<stdin>", line 1
+    print('real\nreal\nreal\n)
+                             ^
+SyntaxError: EOL while scanning string literal
+>>> print('real\nreal\nreal\n')
+real
+real
+real
+
+>>> #연습문제: 여러 줄로 된 문자열 사용하기
+>>> 
+>>> s = '''Python is a programming language that lets you work quickly
+... and
+... integrate systems more effectively.'''
+>>> print(s)
+Python is a programming language that lets you work quickly
+and
+integrate systems more effectively.
+>>> 
+>>> #심사문제: 여러 줄로 된 문자열 사용하기
+>>> s = """'Python' is a "programming language"
+... that lets you work quickly
+... and
+... integrate systems more effectively."""
+>>> print(s)
+'Python' is a "programming language"
+that lets you work quickly
+and
+integrate systems more effectively.
