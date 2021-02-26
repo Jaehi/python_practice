@@ -1,5 +1,5 @@
-# N = int(input())
-N = 1260
+N = int(input())
+ 
 i = 0
 fivehun_result = 1
 onehun_result = 1
