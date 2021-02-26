@@ -17,7 +17,7 @@ class Student(StudentBase):
         print('공부하기')
 
     def go_to_school(self):
-        print('중대부중간다')
+        print('학교간다')
 
 james = Student()
 james.study()

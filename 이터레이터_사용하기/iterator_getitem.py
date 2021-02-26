@@ -8,9 +8,7 @@ class Mogu:
         else:
             raise IndexError
 
-print(Mogu(10)[11],Mogu(3)[1],Mogu(3)[2])
+print(Mogu(3)[1],Mogu(3)[2])
 
 for i in Mogu(3):
     print(i, end=" ")
-
-        

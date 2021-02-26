@@ -1,8 +1,15 @@
 def solution(arr, max_n, min_n):
-    max_n = max_n//min_n
-    return max_n
+    number_count_dict = {}
 
-	
+    for i in arr:
+        if str(i) in number_count_dict.keys():
+            number_count_dict[str(i)] += 1
+        else:
+            number_count_dict[str(i)] = 1
+
+    answer = number_count_dict[str(max_n)] // number_count_dict[str(min_n)]
+
+    return answer
 
 arr = [1,2,3,3,1,3,3,2,3,2]
 max_num = max(arr)

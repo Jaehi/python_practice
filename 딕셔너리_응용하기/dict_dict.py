@@ -19,7 +19,6 @@ terrestrial_planet = {
         'mass' : 6.4185E+23,
         'orbital_period' : 686,9200
     }
-   
 }
 
   print(terrestrial_planet['Mars']['mean_radius'])

@@ -8,5 +8,5 @@ with open('judge.txt','r') as file:
         for j in a:
             if 'c' in j:
                 print(j.strip(',.'))
-    
+        
     print()
